@@ -1,0 +1,75 @@
+/* Appearance follows the browser/OS preference, including live changes. */
+:root { color-scheme: light; }
+.billing-options { flex-wrap: wrap; }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --paper: #090d1b;
+    --ink: #f1f4fc;
+    --muted: #b5c2d8;
+    --line: #2d3950;
+    --link: #78bfff;
+  }
+  body { background: var(--paper); }
+  .header, .footer { color: var(--ink); }
+  .nav { background: var(--paper); }
+  .menu-toggle span { background: var(--ink); }
+
+  .button { background: #2aadfe; border-color: #2aadfe; color: #000034; }
+  .button:hover { background: #8ad4ff; border-color: #8ad4ff; color: #000034; }
+  a:focus-visible, button:focus-visible, summary:focus-visible { outline-color: #ffb07b; }
+  .skip { background: #f1f4fc; color: #000034; }
+
+  .square-period { color: #2aadfe; }
+  .scan-rings, .scan-rings span { border-color: #395b804d; }
+  .direction-line { background: #52647e; }
+  .reveal-button { background: #142442; border-color: #53698b; color: #f1f4fc; }
+  .hero.is-revealed { background: #000034; }
+  .is-revealed .hidden-word { -webkit-text-stroke-color: #2aadfeb3; }
+  .intro { border-block: 1px solid #233252; }
+
+  .story-opening { border-color: var(--line); }
+  .story-link { color: var(--link); border-color: var(--link); }
+  .story-link:hover { color: #fff; border-color: #fff; }
+  .process-caption i { background: #6c83a1; }
+  .process-caption i::after { background: #78bfff; }
+  .scene-orbit { border-color: #293e5b; background: radial-gradient(ellipse at center, #14345a66, transparent 66%); }
+  .batch-slip, .unit-ticket, .wallet-caption {
+    color: #f1f4fc;
+    border-color: #405675;
+    background: linear-gradient(135deg, #1d2f4b, #14213a);
+    box-shadow: 0 4px 0 #0a1226, 0 16px 24px #0005;
+  }
+  .batch-rail { border-color: var(--line); }
+  .batch-products { background: radial-gradient(ellipse at 50% 75%, #14345a66, transparent 65%); }
+  .identity-baseline span { background: #334763; }
+  .label-qr { --ink: #000034; background-color: #fff; border-color: #fff; }
+  .phone-screen { background: linear-gradient(145deg, #15253e, #101c30); color: #f1f4fc; }
+  .phone-checks span { border-color: #40516b; }
+  .phone-checks span::before { background: #78bfff; }
+  .scan-bridge::before { background: #496381; }
+  .consumer-tag { background: #203955; color: #eaf4ff; box-shadow: 0 3px 0 #101f35; }
+
+  .rewards { background: #122b48; color: #f1f4fc; }
+  .reward-words span:first-child, .reward-words span:last-child { color: #75c8ff; }
+  .reward-words span:nth-child(2) { -webkit-text-stroke-color: #75c8ff; }
+  .rewards-copy p, .rewards-copy .quiet-note { color: #d0def0; }
+  .rewards-copy { border-color: #405e7f; }
+  .reward-symbol { color: #75c8ff; }
+
+  .payment { background: #101a2c; }
+  .payment-line { border-color: #36475f; }
+  .billing-options > span { background: #192840; border-color: #4f6582; color: #e0ecfc; }
+  .wallet-orbit { border-color: #334b6c; }
+  .story-faq .faq-list { border-top-color: #425470; }
+  .story-faq details[open] { background: #142137; }
+  .closing { border-top: 1px solid #233252; }
+}
+
+/* Open core masters carry their own clear space; picture selects the OS theme. */
+.brand picture { display: block; }
+.brand img { object-fit: contain; }
+.phone-brand img { width: auto; height: 1.4em; max-width: 100%; margin-inline: auto; object-fit: contain; }
+.brand-mark-window { overflow: visible; display: grid; place-items: center; }
+.brand-mark-window img { width: 100%; height: 100%; max-width: 100%; object-fit: contain; }

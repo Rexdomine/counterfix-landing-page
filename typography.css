@@ -1,0 +1,96 @@
+/* A single, quiet system sans, with room for its natural letterforms. */
+body { letter-spacing: -.012em; }
+h1, h2, h3 { font-weight: 600; }
+.hero h1 { font-weight: 600; }
+.hidden-word { top: 44px; font-size: clamp(140px, 16.4vw, 236px); letter-spacing: -.065em; line-height: 1; }
+.plain-words { top: 340px; font-size: clamp(58px, 5.2vw, 75px); letter-spacing: -.055em; line-height: 1.04; }
+.poster { height: 845px; }
+.product-scene { top: 228px; }
+.identity-panel { top: 312px; }
+.ordinary-panel h2 { font-weight: 600; letter-spacing: -.035em; }
+.panel-index > span.target-mark { display: block; }
+.reveal-control { top: 748px; }
+.hero.is-revealed .poster { height: 990px; }
+.is-revealed .identity-panel { top: 285px; }
+.intro h2 { font-size: 30px; line-height: 1.13; letter-spacing: -.035em; }
+.story-opening h2, .payment-heading h2, .story-faq h2 {
+  margin-top: 0; font-weight: 600; line-height: 1.1; letter-spacing: -.045em;
+}
+.story-opening h2 { font-size: clamp(38px, 4.3vw, 62px); }
+.chapter-copy { padding-left: 0; }
+.chapter h3 { font-size: 43px; font-weight: 600; line-height: 1.12; letter-spacing: -.04em; }
+.chapter-copy > p { max-width: 370px; }
+.reward-words { font-size: clamp(60px, 6.4vw, 92px); font-weight: 600; line-height: 1.02; letter-spacing: -.055em; }
+.rewards-copy h2 { margin-top: 0; font-weight: 600; letter-spacing: -.035em; }
+.reward-symbol { top: -60px; }
+.payment-heading h2 { font-size: clamp(36px, 4.2vw, 60px); }
+.payment-line h3 { font-weight: 600; letter-spacing: -.035em; }
+.payment-next { padding-left: 0; }
+.story-faq h2 { font-size: 42px; }
+.story-faq details p { padding-left: 0; }
+.closing h2 { margin-top: 24px; font-size: 128px; font-weight: 600; line-height: .99; letter-spacing: -.055em; }
+.closing-target { top: 32px; }
+.identity-label, .demo-disclaimer strong, .scene-caption, .payment-kicker,
+.phone-eyebrow, .batch-rail, .batch-slip > div > span, .wallet-caption > span {
+  letter-spacing: .025em;
+}
+
+@media (max-width: 1150px) {
+  .hidden-word { top: 42px; font-size: 17vw; }
+  .plain-words { top: 318px; font-size: 5.2vw; }
+  .poster { height: 855px; }
+  .product-scene { top: 237px; left: 45%; }
+  .identity-panel { top: 303px; width: 285px; }
+  .reveal-control { top: 751px; }
+  .hero.is-revealed .poster { height: 1090px; }
+  .is-revealed .identity-panel { top: 265px; }
+  .intro h2 { font-size: 26px; }
+  .chapter h3 { font-size: 37px; }
+  .story-faq h2 { font-size: 35px; }
+  .closing h2 { font-size: 112px; }
+}
+
+@media (max-width: 850px) {
+  .hidden-word { top: 40px; font-size: 17.6vw; }
+  .plain-words { top: 270px; font-size: 5vw; }
+  .product-scene { top: 245px; left: 43%; }
+  .identity-panel { top: 275px; width: 248px; }
+  .poster { height: 895px; }
+  .reveal-control { top: 782px; }
+  .hero.is-revealed .poster { height: 1160px; }
+  .is-revealed .identity-panel { top: 270px; }
+  .is-revealed .reveal-control { top: 1010px; }
+  .chapter h3 { font-size: 32px; }
+  .reward-words { font-size: 5.8vw; }
+  .story-faq h2 { font-size: 30px; }
+  .closing h2 { font-size: 100px; }
+  .closing-target { top: 58px; }
+}
+
+@media (max-width: 700px) {
+  .hero.is-revealed .poster { height: auto; }
+  .hero.is-revealed .reveal-control { top: auto; }
+  .hero h1 { height: 30vw; margin-top: 27px; }
+  .hidden-word { top: 0; font-size: 21.3vw; letter-spacing: -.06em; }
+  .plain-words { top: 22vw; font-size: 8.1vw; letter-spacing: -.045em; word-spacing: 0; line-height: 1.05; }
+  .product-scene { top: auto; left: 50%; margin-top: 14px; }
+  .hero .identity-panel { top: auto; }
+  .intro h2 { font-size: 30px; }
+  .story-opening h2 { font-size: clamp(32px, 8.6vw, 51px); }
+  .chapter h3 { font-size: 34px; }
+  .reward-words { font-size: 14.6vw; }
+  .rewards-copy h2 { margin-top: 0; }
+  .payment-heading h2 { font-size: clamp(30px, 7.6vw, 46px); }
+  .story-faq h2 { font-size: clamp(26px, 6.8vw, 39px); }
+  .story-faq > div:first-child { min-height: 150px; padding-right: 0; }
+  .faq-reassurance { max-width: calc(100% - 65px); }
+  .question-object { bottom: 0; }
+  .closing h2 { font-size: 20vw; margin-top: 12px; }
+  .closing-target { top: 48vw; }
+}
+
+@media (max-width: 360px) {
+  .chapter h3 { font-size: 30px; }
+  .intro h2 { font-size: 27px; }
+  .closing-target { top: 51vw; }
+}

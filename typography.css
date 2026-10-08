@@ -94,3 +94,24 @@ h1, h2, h3 { font-weight: 600; }
   .intro h2 { font-size: 27px; }
   .closing-target { top: 51vw; }
 }
+
+/* Explain the offer beside the poster on desktop, before the pack on mobile. */
+.hero-offer { position: absolute; top: 518px; left: 0; width: 318px; margin: 0; font-size: 17px; line-height: 1.5; color: var(--muted); z-index: 4; }
+.hero-offer strong { display: block; margin-bottom: 9px; color: var(--ink); font-weight: 600; }
+.hero-offer > span { display: block; }
+.hero.is-revealed .hero-offer { color: #d7e0ff; }
+.hero.is-revealed .hero-offer strong { color: #fff; }
+.process-caption { flex-wrap: wrap; }
+.payment-summary { margin: 0 0 8px; color: var(--ink); font-size: 18px; line-height: 1.55; max-width: 470px; }
+@media (max-width: 1150px) {
+  .hero-offer { top: 451px; width: 230px; font-size: 16px; }
+}
+@media (max-width: 850px) {
+  .hero-offer { top: 383px; width: 185px; }
+  .payment-summary { font-size: 17px; }
+}
+@media (max-width: 700px) {
+  .hero-offer { position: static; width: auto; margin: 20px 0 22px; font-size: 17px; line-height: 1.5; }
+  .hero-offer strong { margin-bottom: 7px; }
+  .payment-summary { font-size: 16px; }
+}

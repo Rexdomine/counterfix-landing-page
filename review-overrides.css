@@ -1,0 +1,5 @@
+/* Preserve the supplied demo art's intended proportions. */
+.hero-pack { height: 460px; object-fit: contain; }
+.phone-qr { height: 138px; object-fit: cover; object-position: 50% 43%; }
+@media (max-width: 850px) { .hero-pack { height: 405px; } }
+@media (max-width: 480px) { .phone-qr { height: 112px; } }

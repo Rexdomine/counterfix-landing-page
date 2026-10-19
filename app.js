@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', () => {
 const workflowStyles = document.createElement('link');
 workflowStyles.rel = 'stylesheet';
 workflowStyles.href = 'workflow-art-direction.css';
@@ -18,3 +19,4 @@ menuButton.addEventListener('click', () => { const open = menuButton.getAttribut
 navigation.addEventListener('click', event => { if (event.target.closest('a')) closeMenu(); });
 document.addEventListener('keydown', event => { if (event.key === 'Escape' && navigation.classList.contains('open')) { closeMenu(); menuButton.focus(); } });
 window.matchMedia('(min-width: 851px)').addEventListener('change', closeMenu);
+});

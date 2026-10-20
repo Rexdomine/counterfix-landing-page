@@ -86,6 +86,10 @@ if (footerMark) {
   footerMark.innerHTML = '© 2026 CounterFix<small>Made with 💙 from the A team</small>';
 }
 
+const legacySignupUrl = 'https://auth.counterfix.io/register/';
+const signupUrl = 'https://counterdevs.xyz/register';
+document.querySelectorAll(`a[href="${legacySignupUrl}"]`).forEach(link => { link.href = signupUrl; });
+
 const menuButton = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('#navigation');
 const closeMenu = () => { menuButton.setAttribute('aria-expanded', 'false'); menuButton.setAttribute('aria-label', 'Open navigation'); navigation.classList.remove('open'); };

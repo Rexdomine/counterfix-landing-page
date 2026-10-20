@@ -12,7 +12,7 @@ Run `npm run build`. The dependency-free build copies only the approved HTML, CS
 
 ## Behaviour
 
-The product verification interaction is visibly illustrative. It does not perform live authentication or issue rewards. Signup links lead to https://auth.counterfix.io/register/. System appearance controls the page theme automatically.
+The product verification interaction is visibly illustrative. It does not perform live authentication or issue rewards. Signup links lead to https://counterdevs.xyz/register. System appearance controls the page theme automatically.
 
 ## Assets
 

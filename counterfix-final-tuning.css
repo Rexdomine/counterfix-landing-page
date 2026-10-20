@@ -47,6 +47,7 @@
 .use-cases-grid::after { content: ""; position: absolute; left: 25%; bottom: -34%; width: 52%; aspect-ratio: 1; border: 1px solid rgb(36 107 255 / .18); border-radius: 50%; }
 .use-case-card { position: relative; z-index: 1; display: grid; align-content: end; min-width: 0; }
 .use-case-art { position: relative; min-height: 318px; }
+.use-case-art picture { position: relative; z-index: 1; display: block; }
 .use-case-art img { position: relative; z-index: 1; display: block; width: 100%; height: 318px; object-fit: contain; filter: drop-shadow(13px 18px 15px rgb(5 37 101 / .24)); }
 .use-case-food .use-case-art img { transform: translateY(10px) scale(1.03); }
 .use-case-everyday .use-case-art img { transform: translateY(-6px) scale(1.04); }

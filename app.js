@@ -43,19 +43,19 @@ if (hero) {
       </div>
       <div class="use-cases-grid">
         <article class="use-case-card use-case-food">
-          <div class="use-case-art"><img src="assets/usecase-food-beverage.png" alt="Illustrative food pouch and drinks can with CounterFix code labels"><span class="case-code">DEMO PACK CODE <b>CF · 021</b></span></div>
+          <div class="use-case-art"><picture><source srcset="assets/usecase-food-beverage.webp" type="image/webp"><img src="assets/usecase-food-beverage.png" width="768" height="512" loading="eager" fetchpriority="low" decoding="async" alt="Illustrative food pouch and drinks can with CounterFix code labels"></picture><span class="case-code">DEMO PACK CODE <b>CF · 021</b></span></div>
           <h3>Food &amp; beverages</h3>
         </article>
         <article class="use-case-card use-case-everyday">
-          <div class="use-case-art"><img src="assets/usecase-everyday-essentials.png" alt="Illustrative detergent and personal-care packs with CounterFix code labels"><span class="case-code">DEMO PACK CODE <b>CF · 034</b></span></div>
+          <div class="use-case-art"><picture><source srcset="assets/usecase-everyday-essentials.webp" type="image/webp"><img src="assets/usecase-everyday-essentials.png" width="768" height="702" loading="eager" fetchpriority="low" decoding="async" alt="Illustrative detergent and personal-care packs with CounterFix code labels"></picture><span class="case-code">DEMO PACK CODE <b>CF · 034</b></span></div>
           <h3>Everyday essentials</h3>
         </article>
         <article class="use-case-card use-case-pharma">
-          <div class="use-case-art"><img src="assets/usecase-pharmaceuticals.png" alt="Illustrative medicine carton and blister pack with CounterFix code labels"><span class="case-code">DEMO PACK CODE <b>CF · 051</b></span></div>
+          <div class="use-case-art"><picture><source srcset="assets/usecase-pharmaceuticals.webp" type="image/webp"><img src="assets/usecase-pharmaceuticals.png" width="768" height="512" loading="eager" fetchpriority="low" decoding="async" alt="Illustrative medicine carton and blister pack with CounterFix code labels"></picture><span class="case-code">DEMO PACK CODE <b>CF · 051</b></span></div>
           <h3>Pharmaceuticals</h3>
         </article>
         <article class="use-case-card use-case-spirits">
-          <div class="use-case-art"><img src="assets/usecase-wine-spirits.png" alt="Illustrative spirits bottle and outer pack with CounterFix code labels"><span class="case-code">DEMO PACK CODE <b>CF · 062</b></span></div>
+          <div class="use-case-art"><picture><source srcset="assets/usecase-wine-spirits.webp" type="image/webp"><img src="assets/usecase-wine-spirits.png" width="768" height="702" loading="eager" fetchpriority="low" decoding="async" alt="Illustrative spirits bottle and outer pack with CounterFix code labels"></picture><span class="case-code">DEMO PACK CODE <b>CF · 062</b></span></div>
           <h3>Wine &amp; spirits</h3>
         </article>
       </div>

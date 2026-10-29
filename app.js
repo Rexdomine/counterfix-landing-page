@@ -15,10 +15,10 @@ if (workspaceCapture) {
 const packIdentityArt = document.querySelector('.reason-art');
 if (packIdentityArt) {
   packIdentityArt.innerHTML = `
-    <div class="pack-system" aria-label="Illustration of Citrus Fizz product, batch, and distinct pack identities">
+    <div class="pack-system" aria-label="Illustration of Dual Defender linking a Citrus Fizz product and batch to distinct pack identities">
       <div class="identity-source"><span>PRODUCT</span><strong>Citrus Fizz</strong></div>
       <div class="identity-batch"><span>BATCH</span><strong>CFZ-0426</strong></div>
-      <p class="identity-note">SAME PRODUCT · SAME BATCH · DISTINCT PACKS</p>
+      <p class="identity-note">DUAL DEFENDER · PRODUCT + BATCH + DISTINCT PACKS</p>
       <div class="unit-row">
         <figure class="unit-card"><img src="assets/citrus-fizz-demo.png" alt="Illustrative Citrus Fizz pack with code CF-006-0426"><figcaption>CF-006-0426</figcaption></figure>
         <figure class="unit-card featured-unit"><img src="assets/citrus-fizz-demo.png" alt="Illustrative Citrus Fizz pack with code CF-008-0426"><figcaption><span>UNIQUE PACK ID</span>CF-008-0426</figcaption></figure>
@@ -36,10 +36,10 @@ if (hero) {
     <div class="shell use-cases-inner">
       <div class="use-cases-heading">
         <div>
-          <p class="eyebrow">Designed around the packs you make</p>
-          <h2 id="use-cases-title">Different products.<br><span>Every pack</span> accounted for.</h2>
+          <p class="eyebrow">Flexible codes for the products and print process you already use</p>
+          <h2 id="use-cases-title">Different products.<br><span>One clear check</span> for every pack.</h2>
         </div>
-        <p>Link each pack to its product and batch.</p>
+        <p>CounterFix codes can fit production-line printing or other established print workflows, with the setup matched to the manufacturer.</p>
       </div>
       <div class="use-cases-grid">
         <article class="use-case-card use-case-food">

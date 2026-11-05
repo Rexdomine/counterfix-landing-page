@@ -7,7 +7,7 @@ document.querySelectorAll('.workflow-step .step-no, .workflow-step figcaption').
 const workspaceCapture = document.querySelector('.workspace-capture');
 if (workspaceCapture) {
   const workspaceImage = workspaceCapture.querySelector('img');
-  workspaceImage.src = 'assets/manufacturer-command-center-demo.jpg';
+  workspaceImage.src = 'assets/manufacturer-command-center-demo.webp';
   workspaceImage.alt = 'Illustrative CounterFix Command Center workspace screen';
   workspaceCapture.querySelector('figcaption')?.remove();
 }
@@ -20,9 +20,9 @@ if (packIdentityArt) {
       <div class="identity-batch"><span>BATCH</span><strong>CFZ-0426</strong></div>
       <p class="identity-note">DUAL DEFENDER · PRODUCT + BATCH + DISTINCT PACKS</p>
       <div class="unit-row">
-        <figure class="unit-card"><img src="assets/citrus-fizz-demo.png" alt="Illustrative Citrus Fizz pack with code CF-006-0426"><figcaption>CF-006-0426</figcaption></figure>
-        <figure class="unit-card featured-unit"><img src="assets/citrus-fizz-demo.png" alt="Illustrative Citrus Fizz pack with code CF-008-0426"><figcaption><span>UNIQUE PACK ID</span>CF-008-0426</figcaption></figure>
-        <figure class="unit-card"><img src="assets/citrus-fizz-demo.png" alt="Illustrative Citrus Fizz pack with code CF-011-0426"><figcaption>CF-011-0426</figcaption></figure>
+        <figure class="unit-card"><img loading="lazy" decoding="async" src="assets/citrus-fizz-demo.webp" alt="Illustrative Citrus Fizz pack with code CF-006-0426"><figcaption>CF-006-0426</figcaption></figure>
+        <figure class="unit-card featured-unit"><img loading="lazy" decoding="async" src="assets/citrus-fizz-demo.webp" alt="Illustrative Citrus Fizz pack with code CF-008-0426"><figcaption><span>UNIQUE PACK ID</span>CF-008-0426</figcaption></figure>
+        <figure class="unit-card"><img loading="lazy" decoding="async" src="assets/citrus-fizz-demo.webp" alt="Illustrative Citrus Fizz pack with code CF-011-0426"><figcaption>CF-011-0426</figcaption></figure>
       </div>
     </div>`;
 }
@@ -43,19 +43,19 @@ if (hero) {
       </div>
       <div class="use-cases-grid">
         <article class="use-case-card use-case-food">
-          <div class="use-case-art"><picture><source srcset="assets/usecase-food-beverage.webp" type="image/webp"><img src="assets/usecase-food-beverage.png" width="768" height="512" loading="eager" fetchpriority="low" decoding="async" alt="Illustrative food pouch and drinks can with CounterFix code labels"></picture><span class="case-code">DEMO PACK CODE <b>CF · 021</b></span></div>
+          <div class="use-case-art"><picture><source srcset="assets/usecase-food-beverage.webp" type="image/webp"><img src="assets/usecase-food-beverage.png" width="768" height="512" loading="lazy" decoding="async" alt="Illustrative food pouch and drinks can with CounterFix code labels"></picture><span class="case-code">DEMO PACK CODE <b>CF · 021</b></span></div>
           <h3>Food &amp; beverages</h3>
         </article>
         <article class="use-case-card use-case-everyday">
-          <div class="use-case-art"><picture><source srcset="assets/usecase-everyday-essentials.webp" type="image/webp"><img src="assets/usecase-everyday-essentials.png" width="768" height="702" loading="eager" fetchpriority="low" decoding="async" alt="Illustrative detergent and personal-care packs with CounterFix code labels"></picture><span class="case-code">DEMO PACK CODE <b>CF · 034</b></span></div>
+          <div class="use-case-art"><picture><source srcset="assets/usecase-everyday-essentials.webp" type="image/webp"><img src="assets/usecase-everyday-essentials.png" width="768" height="702" loading="lazy" decoding="async" alt="Illustrative detergent and personal-care packs with CounterFix code labels"></picture><span class="case-code">DEMO PACK CODE <b>CF · 034</b></span></div>
           <h3>Everyday essentials</h3>
         </article>
         <article class="use-case-card use-case-pharma">
-          <div class="use-case-art"><picture><source srcset="assets/usecase-pharmaceuticals.webp" type="image/webp"><img src="assets/usecase-pharmaceuticals.png" width="768" height="512" loading="eager" fetchpriority="low" decoding="async" alt="Illustrative medicine carton and blister pack with CounterFix code labels"></picture><span class="case-code">DEMO PACK CODE <b>CF · 051</b></span></div>
+          <div class="use-case-art"><picture><source srcset="assets/usecase-pharmaceuticals.webp" type="image/webp"><img src="assets/usecase-pharmaceuticals.png" width="768" height="512" loading="lazy" decoding="async" alt="Illustrative medicine carton and blister pack with CounterFix code labels"></picture><span class="case-code">DEMO PACK CODE <b>CF · 051</b></span></div>
           <h3>Pharmaceuticals</h3>
         </article>
         <article class="use-case-card use-case-spirits">
-          <div class="use-case-art"><picture><source srcset="assets/usecase-wine-spirits.webp" type="image/webp"><img src="assets/usecase-wine-spirits.png" width="768" height="702" loading="eager" fetchpriority="low" decoding="async" alt="Illustrative spirits bottle and outer pack with CounterFix code labels"></picture><span class="case-code">DEMO PACK CODE <b>CF · 062</b></span></div>
+          <div class="use-case-art"><picture><source srcset="assets/usecase-wine-spirits.webp" type="image/webp"><img src="assets/usecase-wine-spirits.png" width="768" height="702" loading="lazy" decoding="async" alt="Illustrative spirits bottle and outer pack with CounterFix code labels"></picture><span class="case-code">DEMO PACK CODE <b>CF · 062</b></span></div>
           <h3>Wine &amp; spirits</h3>
         </article>
       </div>

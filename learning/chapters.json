@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Welcome & account",
+    "seconds": 0,
+    "text": "Welcome to CounterFix Edge. In this walkthrough, we’ll take you from setting up your account to helping customers verify your products. To begin, enter your email address, create a password, confirm it, and select Create Account."
+  },
+  {
+    "title": "Verify your email",
+    "seconds": 27,
+    "text": "Check your email for the verification code. Enter the code on this screen, then select Verify and Continue. Once your email is verified, you’ll be taken to your dashboard."
+  },
+  {
+    "title": "Company verification",
+    "seconds": 39,
+    "text": "Next, let’s verify your business. Open company verification and start the CAC verification process. Enter your registered company name, provide the requested information and documents, and submit them for review."
+  },
+  {
+    "title": "KYC & approval",
+    "seconds": 61,
+    "text": "Now open the KYC section. Enter your official contact email and complete the requested business details. Submit your information for review. Verification takes approximately one to five business days. Once your details have been reviewed and approved, your dashboard will be activated."
+  },
+  {
+    "title": "Add your product",
+    "seconds": 82,
+    "text": "Once your dashboard is activated, return to it and select Upload Product. Enter your product details, including the product name and the information requested on the form. When you’re ready, submit the product."
+  },
+  {
+    "title": "Create a batch",
+    "seconds": 101,
+    "text": "With your product in place, open Batches and select Create New Batch. Give your batch a name and complete the requested details. Continue through the compliance and deployment sections, review the summary, and create your batch. Then select Publish and confirm. The batch will go through verification before you continue."
+  },
+  {
+    "title": "Dual Defender",
+    "seconds": 142,
+    "text": "Once the batch is verified, open it and choose Dual Defender, CounterFix’s flagship verification method. Confirm your selection and proceed to deploy it on the CounterFix Chain System. Confirm deployment, and you’ll see the status update when it’s complete."
+  },
+  {
+    "title": "Subscription plans",
+    "seconds": 171,
+    "text": "Before funding your wallet and generating verification codes, make sure you have a subscription plan that includes pay-per-verification access. Open Plans to review the available options. In this example, the current plan does not include that access, so an eligible subscription is needed before proceeding."
+  },
+  {
+    "title": "Wallet & codes",
+    "seconds": 197,
+    "text": "Next, open the wallet top-up section and fund your wallet. Once your balance is available, return to code generation and select Generate QR Codes. When your codes are ready, choose your preferred format. CounterFix supports ZIP and CSV downloads. In this example, we’ll download the QR codes as a ZIP file. You can use these codes on your product labels so customers can scan them and verify your products."
+  },
+  {
+    "title": "Customer scan",
+    "seconds": 237,
+    "text": "Now let’s see what happens when a customer scans a product’s QR code. On the verification page, the customer selects Purchase Product."
+  },
+  {
+    "title": "Phone & location",
+    "seconds": 249,
+    "text": "The customer enters their phone number and continues. When prompted, they must allow location access to proceed with verification. This helps CounterFix record where the product is being scanned. They then enter the one-time code sent to their phone and select Verify Code."
+  },
+  {
+    "title": "Verification result",
+    "seconds": 275,
+    "text": "The verification result appears on screen. The customer can scroll down to see the manufacturer’s information and product details, including the batch information. This example is in Test Mode, so the product is not marked as purchased."
+  },
+  {
+    "title": "Wrap up",
+    "seconds": 293,
+    "text": "And that’s the journey—from setting up your business and product to helping customers verify with confidence."
+  }
+]

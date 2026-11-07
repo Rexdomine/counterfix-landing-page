@@ -36,10 +36,10 @@ if (hero) {
     <div class="shell use-cases-inner">
       <div class="use-cases-heading">
         <div>
-          <p class="eyebrow">Flexible codes for the products and print process you already use</p>
-          <h2 id="use-cases-title">Different products.<br><span>One clear check</span> for every pack.</h2>
+          <p class="eyebrow">Made for the products people buy every day</p>
+          <h2 id="use-cases-title">A small batch or a busy line.<br><span>Every pack can have its own check.</span></h2>
         </div>
-        <p>CounterFix codes can fit production-line printing or other established print workflows, with the setup matched to the manufacturer.</p>
+        <p>From food and drinks to everyday essentials, CounterFix can fit the way your business labels and prints its packs.</p>
       </div>
       <div class="use-cases-grid">
         <article class="use-case-card use-case-food">
